@@ -10,7 +10,8 @@
     "nexus": "1.0.0"
   },
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "seed": "npm run prisma/seedCoordinates.js"
   },
   "devDependencies": {
     "nodemon": "2.0.7",
